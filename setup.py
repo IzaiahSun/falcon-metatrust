@@ -18,7 +18,7 @@ setup(
         "crytic-compile==0.3.3",
         "z3-solver==4.11.2.0",
         "networkx==2.5.1",
-        "openai==0.27.8"
+        "openai>=0.27.8"
 
     ],
     extras_require={
