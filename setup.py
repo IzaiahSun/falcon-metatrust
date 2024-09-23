@@ -17,14 +17,14 @@ setup(
         "pysha3>=1.0.2",
         "crytic-compile==0.3.3",
         "z3-solver==4.11.2.0",
-        "networkx==2.5.1",
+        "networkx>=2.5.1",
         "openai>=0.27.8"
 
     ],
     extras_require={
         "dev": [
             "black==22.3.0",
-            "pylint==2.13.4",
+            "pylint>=2.13.4",
             "pytest",
             "pytest-cov",
             "deepdiff",
